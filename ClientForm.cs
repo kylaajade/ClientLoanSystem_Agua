@@ -59,7 +59,7 @@ namespace ClientLoanSystem
 
         private void deleteBtn_Click(object sender, EventArgs e)
         {
-            DialogResult result = MessageBox.Show($"Imoha na ba ning e delete? {getSelectedId}", "Delete Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            DialogResult result = MessageBox.Show($"Do you want to delete this? {getSelectedId}", "Delete Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
 
             if (result == DialogResult.Yes)
             {

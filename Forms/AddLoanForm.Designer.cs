@@ -48,17 +48,17 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Calisto MT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Cooper Black", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(22, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(123, 22);
+            this.label1.Size = new System.Drawing.Size(142, 21);
             this.label1.TabIndex = 10;
             this.label1.Text = "Loan Amount";
             // 
             // loan_val
             // 
             this.loan_val.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.loan_val.Location = new System.Drawing.Point(151, 9);
+            this.loan_val.Location = new System.Drawing.Point(170, 12);
             this.loan_val.Maximum = new decimal(new int[] {
             1000000,
             0,
@@ -71,7 +71,7 @@
             // interest_val
             // 
             this.interest_val.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.interest_val.Location = new System.Drawing.Point(62, 82);
+            this.interest_val.Location = new System.Drawing.Point(170, 59);
             this.interest_val.Name = "interest_val";
             this.interest_val.Size = new System.Drawing.Size(173, 26);
             this.interest_val.TabIndex = 13;
@@ -79,10 +79,10 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Calisto MT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(22, 51);
+            this.label2.Font = new System.Drawing.Font("Cooper Black", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(22, 60);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(71, 22);
+            this.label2.Size = new System.Drawing.Size(88, 21);
             this.label2.TabIndex = 12;
             this.label2.Text = "Interest";
             // 
@@ -90,7 +90,7 @@
             // 
             this.term_val.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.term_val.FormattingEnabled = true;
-            this.term_val.Location = new System.Drawing.Point(62, 145);
+            this.term_val.Location = new System.Drawing.Point(170, 106);
             this.term_val.Name = "term_val";
             this.term_val.Size = new System.Drawing.Size(173, 28);
             this.term_val.TabIndex = 14;
@@ -98,17 +98,17 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Calisto MT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(22, 120);
+            this.label3.Font = new System.Drawing.Font("Cooper Black", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(22, 106);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(54, 22);
+            this.label3.Size = new System.Drawing.Size(61, 21);
             this.label3.TabIndex = 15;
             this.label3.Text = "Term";
             // 
             // noofpay_val
             // 
             this.noofpay_val.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.noofpay_val.Location = new System.Drawing.Point(62, 213);
+            this.noofpay_val.Location = new System.Drawing.Point(170, 188);
             this.noofpay_val.Maximum = new decimal(new int[] {
             1000000,
             0,
@@ -121,10 +121,10 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Calisto MT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(22, 188);
+            this.label4.Font = new System.Drawing.Font("Cooper Black", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(22, 164);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(138, 22);
+            this.label4.Size = new System.Drawing.Size(158, 21);
             this.label4.TabIndex = 16;
             this.label4.Text = "No. of Payment";
             this.label4.Click += new System.EventHandler(this.label4_Click);
@@ -132,7 +132,7 @@
             // deduction_val
             // 
             this.deduction_val.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.deduction_val.Location = new System.Drawing.Point(62, 280);
+            this.deduction_val.Location = new System.Drawing.Point(167, 232);
             this.deduction_val.Maximum = new decimal(new int[] {
             1000000,
             0,
@@ -145,18 +145,18 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Calisto MT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(22, 255);
+            this.label5.Font = new System.Drawing.Font("Cooper Black", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(22, 232);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(94, 22);
+            this.label5.Size = new System.Drawing.Size(110, 21);
             this.label5.TabIndex = 18;
             this.label5.Text = "Deduction";
             // 
             // addBtn
             // 
-            this.addBtn.BackColor = System.Drawing.Color.Aqua;
-            this.addBtn.Font = new System.Drawing.Font("Calisto MT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.addBtn.Location = new System.Drawing.Point(253, 165);
+            this.addBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.addBtn.Font = new System.Drawing.Font("Calisto MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addBtn.Location = new System.Drawing.Point(343, 280);
             this.addBtn.Name = "addBtn";
             this.addBtn.Size = new System.Drawing.Size(80, 45);
             this.addBtn.TabIndex = 20;
@@ -168,7 +168,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(345, 323);
+            this.ClientSize = new System.Drawing.Size(486, 358);
             this.Controls.Add(this.addBtn);
             this.Controls.Add(this.deduction_val);
             this.Controls.Add(this.label5);
@@ -181,9 +181,7 @@
             this.Controls.Add(this.loan_val);
             this.Controls.Add(this.label1);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(361, 362);
             this.MinimizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(361, 362);
             this.Name = "AddLoanForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "AddLoanForm";

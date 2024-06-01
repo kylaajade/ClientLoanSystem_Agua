@@ -67,5 +67,10 @@ namespace ClientLoanSystem
 
             getLoanId = (int)loanTable.SelectedRows[0].Cells[0].Value;
         }
+
+        private void currentClientLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

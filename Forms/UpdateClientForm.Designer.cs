@@ -41,9 +41,9 @@
             // 
             // updateBtn
             // 
-            this.updateBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.updateBtn.Font = new System.Drawing.Font("Calisto MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.updateBtn.Location = new System.Drawing.Point(283, 65);
+            this.updateBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.updateBtn.Font = new System.Drawing.Font("Calisto MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.updateBtn.Location = new System.Drawing.Point(400, 256);
             this.updateBtn.Name = "updateBtn";
             this.updateBtn.Size = new System.Drawing.Size(91, 40);
             this.updateBtn.TabIndex = 17;
@@ -54,10 +54,10 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Calisto MT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Cooper Black", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(14, 143);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(79, 22);
+            this.label4.Size = new System.Drawing.Size(98, 21);
             this.label4.TabIndex = 16;
             this.label4.Text = "Birthday";
             // 
@@ -65,7 +65,7 @@
             // 
             this.birthday_val.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.birthday_val.Enabled = false;
-            this.birthday_val.Location = new System.Drawing.Point(111, 145);
+            this.birthday_val.Location = new System.Drawing.Point(130, 145);
             this.birthday_val.Name = "birthday_val";
             this.birthday_val.Size = new System.Drawing.Size(199, 20);
             this.birthday_val.TabIndex = 15;
@@ -74,7 +74,7 @@
             // 
             this.residency_val.Enabled = false;
             this.residency_val.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.residency_val.Location = new System.Drawing.Point(111, 100);
+            this.residency_val.Location = new System.Drawing.Point(130, 98);
             this.residency_val.Name = "residency_val";
             this.residency_val.Size = new System.Drawing.Size(166, 26);
             this.residency_val.TabIndex = 14;
@@ -82,10 +82,10 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Calisto MT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Cooper Black", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(12, 100);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(93, 22);
+            this.label3.Size = new System.Drawing.Size(108, 21);
             this.label3.TabIndex = 13;
             this.label3.Text = "Residency";
             // 
@@ -93,7 +93,7 @@
             // 
             this.lastname_val.Enabled = false;
             this.lastname_val.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lastname_val.Location = new System.Drawing.Point(111, 53);
+            this.lastname_val.Location = new System.Drawing.Point(130, 63);
             this.lastname_val.Name = "lastname_val";
             this.lastname_val.Size = new System.Drawing.Size(166, 26);
             this.lastname_val.TabIndex = 12;
@@ -101,10 +101,10 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Calisto MT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Cooper Black", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(12, 53);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(88, 22);
+            this.label2.Size = new System.Drawing.Size(103, 21);
             this.label2.TabIndex = 11;
             this.label2.Text = "Lastname";
             // 
@@ -112,7 +112,7 @@
             // 
             this.firstname_val.Enabled = false;
             this.firstname_val.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.firstname_val.Location = new System.Drawing.Point(111, 12);
+            this.firstname_val.Location = new System.Drawing.Point(130, 10);
             this.firstname_val.Name = "firstname_val";
             this.firstname_val.Size = new System.Drawing.Size(166, 26);
             this.firstname_val.TabIndex = 10;
@@ -120,10 +120,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Calisto MT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Cooper Black", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(14, 12);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(91, 22);
+            this.label1.Size = new System.Drawing.Size(110, 21);
             this.label1.TabIndex = 9;
             this.label1.Text = "Firstname";
             // 
@@ -131,7 +131,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(385, 180);
+            this.ClientSize = new System.Drawing.Size(531, 342);
             this.Controls.Add(this.updateBtn);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.birthday_val);
@@ -142,9 +142,7 @@
             this.Controls.Add(this.firstname_val);
             this.Controls.Add(this.label1);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(401, 219);
             this.MinimizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(401, 219);
             this.Name = "UpdateClientForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Form1";
