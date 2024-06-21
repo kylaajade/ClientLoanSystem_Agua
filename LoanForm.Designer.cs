@@ -65,6 +65,7 @@
             this.loanTable.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.loanTable.Size = new System.Drawing.Size(1013, 207);
             this.loanTable.TabIndex = 1;
+            this.loanTable.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.loanTable_CellDoubleClick);
             this.loanTable.SelectionChanged += new System.EventHandler(this.loanTable_SelectionChanged);
             // 
             // paidBtn

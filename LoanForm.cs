@@ -72,5 +72,12 @@ namespace ClientLoanSystem
         {
 
         }
+
+        private void loanTable_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            ScheduleForm viewSchedule = new ScheduleForm();
+            viewSchedule.ShowDialog1();
+            0
+        }
     }
 }
