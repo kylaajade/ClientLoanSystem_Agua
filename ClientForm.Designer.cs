@@ -135,7 +135,7 @@
             // 
             // clientBindingSource
             // 
-            this.clientBindingSource.DataSource = typeof(ClientLoanSystem.Entities.Client);
+//            this.clientBindingSource.DataSource = typeof(ClientLoanSystem.Entities.Client);
             // 
             // addBtn
             // 

@@ -97,15 +97,15 @@
             // 
             // scheduleBindingSource
             // 
-            this.scheduleBindingSource.DataSource = typeof(ClientLoanSystem.Entities.Schedule);
+//            this.scheduleBindingSource.DataSource = typeof(ClientLoanSystem.Entities.Schedule);
             // 
             // scheduleBindingSource1
             // 
-            this.scheduleBindingSource1.DataSource = typeof(ClientLoanSystem.Entities.Schedule);
+//            this.scheduleBindingSource1.DataSource = typeof(ClientLoanSystem.Entities.Schedule);
             // 
             // loanBindingSource1
             // 
-            this.loanBindingSource1.DataSource = typeof(ClientLoanSystem.Entities.Loan);
+//            this.loanBindingSource1.DataSource = typeof(ClientLoanSystem.Entities.Loan);
             // 
             // dataGridView1
             // 
@@ -135,7 +135,7 @@
             // 
             // loanBindingSource2
             // 
-            this.loanBindingSource2.DataSource = typeof(ClientLoanSystem.Entities.Loan);
+//            this.loanBindingSource2.DataSource = typeof(ClientLoanSystem.Entities.Loan);
             // 
             // dataGridViewTextBoxColumn1
             // 

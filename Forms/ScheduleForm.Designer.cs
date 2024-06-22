@@ -64,7 +64,7 @@ namespace ClientLoanSystem.Forms
             // 
             // scheduleBindingSource
             // 
-            this.scheduleBindingSource.DataSource = typeof(ClientLoanSystem.Entities.Schedule);
+//            this.scheduleBindingSource.DataSource = typeof(ClientLoanSystem.Entities.Schedule);
             // 
             // iDDataGridViewTextBoxColumn
             // 

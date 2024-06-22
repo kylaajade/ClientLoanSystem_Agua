@@ -93,7 +93,7 @@ namespace ClientLoanSystem
             selectedClientLoan.Status_Paid = StatusPaid.Active.ToString();
 
             _con.Loans.Add(selectedClientLoan);
-            _con.SaveChanges();
+            //_con.SaveChanges();
         }
 
         private bool confirm;
@@ -131,7 +131,7 @@ namespace ClientLoanSystem
             if (result == DialogResult.Yes)
             {
                 selectedLoan.Status_Paid = (selectedLoan.Status_Paid == StatusPaid.Paid.ToString() ? "Active" : "Paid");
-                _con.SaveChanges();
+                //_con.SaveChanges();
             }
         }
 
@@ -140,7 +140,7 @@ namespace ClientLoanSystem
             Loan loanToDelete = _con.Loans.Where(q => q.LoanID == loanId).FirstOrDefault();
 
             _con.Loans.Remove(loanToDelete);
-            _con.SaveChanges();
+            //_con.SaveChanges();
         }
     }
 }

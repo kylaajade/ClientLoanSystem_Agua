@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.34601.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AguaSolution", "AguaSolution.csproj", "{7DC408EC-0F20-4AAB-AB9A-502F8DC2C873}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompasSystem", "CompasSystem.csproj", "{7DC408EC-0F20-4AAB-AB9A-502F8DC2C873}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
